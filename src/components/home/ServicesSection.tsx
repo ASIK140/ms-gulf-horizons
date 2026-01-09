@@ -15,50 +15,43 @@ import serviceFinishing from "@/assets/service-finishing.jpg";
 const services = [
   {
     title: "Ceiling Installation",
-    description:
-      "Professional suspended and acoustic ceiling systems for commercial and residential projects.",
+    description: "Professional suspended and acoustic ceiling systems for commercial and residential projects.",
     image: serviceCeiling,
     path: "/services/ceiling-installation",
   },
   {
     title: "Drywall Partition",
-    description:
-      "Expert gypsum board and metal stud partition wall construction for flexible spaces.",
+    description: "Expert gypsum board and metal stud partition wall construction for flexible spaces.",
     image: serviceDrywall,
     path: "/services/drywall-partition",
   },
   {
     title: "Painting & Decoration",
-    description:
-      "Premium interior and exterior painting with decorative finishes and coatings.",
+    description: "Premium interior and exterior painting with decorative finishes and coatings.",
     image: servicePainting,
     path: "/services/painting-decoration",
   },
   {
     title: "Tile Installation",
-    description:
-      "Precision tile cutting and fixing for floors, walls, and decorative applications.",
+    description: "Precision tile cutting and fixing for floors, walls, and decorative applications.",
     image: serviceTile,
     path: "/services/tile-installation",
   },
   {
     title: "Cement Plastering",
-    description:
-      "Smooth and durable cement plastering for interior and exterior surfaces.",
+    description: "Smooth and durable cement plastering for interior and exterior surfaces.",
     image: servicePlastering,
     path: "/services/cement-plastering",
   },
   {
     title: "Epoxy & Waterproofing",
-    description:
-      "Industrial-grade epoxy flooring and comprehensive waterproofing solutions.",
+    description: "Industrial-grade epoxy flooring and comprehensive waterproofing solutions.",
     image: serviceEpoxy,
     path: "/services/epoxy-waterproofing",
   },
   {
     title: "Complete Finishing Works",
-    description:
-      "Turnkey interior finishing packages from concept to completion.",
+    description: "Turnkey interior finishing packages from concept to completion.",
     image: serviceFinishing,
     path: "/services/finishing-works",
   },
@@ -78,16 +71,14 @@ const ServicesSection = () => {
           transition={{ duration: 0.6 }}
           className="text-center max-w-3xl mx-auto mb-16"
         >
-          <span className="inline-block text-primary font-semibold mb-4">
-            Our Services
-          </span>
+          <span className="inline-block text-primary font-semibold mb-4">Our Services</span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-montserrat font-bold text-foreground mb-6">
             Comprehensive Finishing Solutions
           </h2>
           <div className="green-line mx-auto mb-6" />
           <p className="text-muted-foreground text-lg">
-            We offer a complete range of interior finishing services with the
-            highest standards of quality and craftsmanship.
+            We offer a complete range of interior finishing services with the highest standards
+            of quality and craftsmanship.
           </p>
         </motion.div>
 
@@ -112,9 +103,7 @@ const ServicesSection = () => {
                   <h3 className="text-lg font-montserrat font-semibold text-foreground mb-2 group-hover:text-primary transition-colors">
                     {service.title}
                   </h3>
-                  <p className="text-sm text-muted-foreground mb-4">
-                    {service.description}
-                  </p>
+                  <p className="text-sm text-muted-foreground mb-4">{service.description}</p>
                   <span className="inline-flex items-center gap-2 text-primary text-sm font-medium">
                     Learn More
                     <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
