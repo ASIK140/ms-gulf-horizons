@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ASIK140.github.io/ms-gulf-horizons",
+  "homepage": "https://asik140.github.io/ms-gulf-horizons",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
